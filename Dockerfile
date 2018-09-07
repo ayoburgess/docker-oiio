@@ -1,4 +1,4 @@
-FROM ayoburgess/ocio
+FROM ayoburgess/ocio:1.1.0
 
 # yum installs
 RUN yum -y update && \
