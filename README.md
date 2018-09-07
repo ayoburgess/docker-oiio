@@ -71,7 +71,7 @@ maketx run time (seconds):  0.54
 maketx peak memory used: 17.1 MB
 ```
 
-## Use iinfo again to check the newly created tiled mip-mapped exr file metadata
+## Using iinfo again to check the newly created tiled mip-mapped exr file metadata
 ```
 docker run --rm -v ${PWD}:/mnt/${PWD} ayoburgess/oiio iinfo -v /mnt/${PWD}/openexr-images/Chromaticities/Rec709.tx
 
